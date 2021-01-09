@@ -51,7 +51,7 @@ def ValuePredictor(testdata):
     df['label']=[dic[wo] for wo in result]
     finaldata['label']=df['label']
 
-    finaldata.to_csv('ans_elim.csv')
+    finaldata.to_csv('./files/ans_elim.csv')
     print('hello')
     return result[0]
 
